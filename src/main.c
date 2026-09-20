@@ -136,6 +136,10 @@ handleinput(void) {
         if (e.type == SDL_EVENT_TEXT_INPUT) {
             write(term.master, e.text.text, 1);
         }
+        if (e.type == SDL_EVENT_KEY_DOWN) {
+            if (e.key.key == SDLK_RETURN)
+                write(term.master, "\n", 1);
+        }
     }
 }
 

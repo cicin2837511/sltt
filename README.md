@@ -1,5 +1,6 @@
 # SLTT - Simple linux toy terminal
 My simple hobby project for a very minimal terminal emulator.
+![Screenshot of the todo list](assets/images/screenshot.png)
 ## Capabilities
 - Programs like ls and cd, etc. work fine
 - Simple shells work fine
